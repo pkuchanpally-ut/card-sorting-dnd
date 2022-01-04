@@ -18,6 +18,7 @@ const CategoriesContainer = styled.div`
   border: 1px solid lightgrey;
   border-radius: 4px;
   margin: 10px;
+  flex-wrap: wrap;
 `;
 
 function App() {

@@ -11,7 +11,7 @@ const CategoryContainer = styled.div`
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  width: 200px;
+  flex: 1 1 auto;
 `;
 
 function Category({ cards, column }) {
