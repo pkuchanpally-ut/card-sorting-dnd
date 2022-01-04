@@ -21,9 +21,9 @@ const CategoriesContainer = styled.div`
 `;
 
 function App() {
-  const [cards, setCards] = useState(cardsData);
+  const cards = { ...cardsData };
   const [columns, setColumns] = useState(columnsData);
-  const [categoriesOrder, setCategoriesOrder] = useState(categoriesOrderData);
+  const categoriesOrder = [...categoriesOrderData];
 
   const onDragEnd = ({ source, destination, draggableId}) => {
     if (!destination) return;
